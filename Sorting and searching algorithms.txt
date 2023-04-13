@@ -1,0 +1,10 @@
+INSERTION-SORT(Cards)
+   for i = 1 to n
+   	key ← Cards [i]
+    	j ← i – 1
+  	 while j > = 0 and Cards[j] > key
+   		Cards[j+1] ← Cards[j]
+   		j ← j – 1
+   	End while 
+   	Cards[j+1] ← key
+  End for 
